@@ -6,67 +6,292 @@
         "Hi",
         "Hii",
         "Hey",
-        "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day"
+        "Hej",
+        "Hello"
       ],
       "responses": [
         "Hey :-)",
-        "Hello, thanks for visiting",
+        "Hello, how can I help you?",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": ["Bye", "Done","No","no","done", "Goodbye"],
       "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "Thanks for asking your Queries. :-)",
+        "I think you have got your answers.",
+        "If you have any query come again."
       ]
     },
     {
       "tag": "thanks",
       "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "responses": [
+        "Any other Queries?",
+        "Any more help....",
+        "Anything else....",
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
     },
     {
-      "tag": "items",
+      "tag": "Faculties",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "Faculties of AIML",
+        "Faculties of aiml",
+        "Faculties",
+        "faculties of AIML",
+        "faculties of aiml",
+        "faculties"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "Dr. Jayavrinda,Dr. Monika Goyal, Dr. Piyali Datta, Dr. Arun Raman, Mr. Pradeep Kumar, Mr. Raghavendra, Mrs. Mary Jasmine, Mr. Udayabhaskara, Mrs. Swetha C B, Ms. Aparajita Sinha, Mrs. Mitha Guru, Rakshita R, Dr. Vinutha N, Mr. Jeevaraj R, Mrs. Pavithra A, Ayain John, Prof. J Rajalekshmi, Dr. Arijit Das"
+      ]
+    },
+    {
+      "tag": "Dr. Jayavrinda",
+      "patterns": [
+        "Info about Dr. Jayavrinda",
+        "Dr. Jayavrinda"
+      ],
+      "responses": [
+        "Her research interests are ML approach to speech processing, energy forecasting and application of ML in the area of behavioural science."
+      ]
+    },
+    {
+      "tag": "Dr. Monika Goyal",
+      "patterns": [
+        "Info about Dr. Monika Goyal",
+        "Dr. Monika Goyal"
+      ],
+      "responses": [
+        " Her primary research interest areas are Medical Image processing, Machine Learning, Deep Learning and Data Science. I proposed different image contrast enhancement algorithms for improving the quality of raw medical MRI images especially for the brain MRI images and I also developed Auto contrast enhancer, Brain tumour detection and classification model based on deep transfer learning and pre trained models Inception V3 and Google net-."
+      ]
+    },
+    {
+      "tag": "Dr. Piyali Datta",
+      "patterns": [
+        "Info about Dr. Piyali Datta",
+        "Dr. Piyali Datta"
+      ],
+      "responses": [
+        "Her current research interests include Microfluidics, Algorithms, VLSI design, and Machine learning. She has proposed several CoDesign algorithms for different platforms of microfluidic biochips. She has published research articles in 9 SCI indexed journals and more than 20 International conference proceedings. She presented papers in 12 International conferences."
+      ]
+    },
+    {
+      "tag": "Dr. Arun Raman",
+      "patterns": [
+        "Info about Dr. Arun Raman",
+        "Dr. Arun Raman"
+      ],
+      "responses": [
+        " He received his Masters in Systems and Control Engineering from the Indian Institute of Technology Bombay in 2012, following which he worked in (what was then) General Electric (GE) Oil & Gas in the Gas Turbine and Compressor Controls Team for a couple of years."
+      ]
+    },
+    {
+      "tag": "Mr. Pradeep Kumar",
+      "patterns": [
+        "Info about Mr. Pradeep Kumar",
+        "Mr. Pradeep Kumar"
+      ],
+      "responses": [
+        "His areas of interest include Embedded systems, Internet of Tings, 3 D modelling, Python Programming (AIML & DS), MEMS, Analog & Digital Circuits, Batteries, Solar Circuits, App development etc."
+      ]
+    },
+    {
+      "tag": "Mr. Raghavendra",
+      "patterns": [
+        "Info about Mr. Raghavendra",
+        "Mr. Raghavendra"
+      ],
+      "responses": [
+        "His research interests are network security, cyber security and cloud computing."
+      ]
+    },
+    {
+      "tag": "Mrs. Mary Jasmine",
+      "patterns": [
+        "Info about Mrs. Mary Jasmine",
+        "Mrs. Mary Jasmine"
+      ],
+      "responses": [
+        "Her areas of research interest are Data Science, Machine Learning, Deep Learning and its applications."
+      ]
+    },
+    {
+      "tag": "Mr. Udayabhaskara",
+      "patterns": [
+        "Info about Mr. Udayabhaskara",
+        "Mr. Udayabhaskara"
+      ],
+      "responses": [
+        "He has also written a dissertation on algorithms used in NLP for sentiment analysis of large scale data and also was part of independent project that concentrated on image enhancement using machine learning to improve light & shadow of foreground object. His area of interest include AI&ML,Digital image processing, Digital signal processing, Computational philosophy."
+      ]
+    },
+    {
+      "tag": "Mrs. Swetha C B",
+      "patterns": [
+        "Info about Mrs. Swetha C B",
+        "Mrs. Swetha C B"
+      ],
+      "responses": [
+        ".Her areas of interest are Network Security,Cryptography, Cyber Seurity and Cyber Forensics."
+      ]
+    },
+    {
+      "tag": "Ms. Aparajita Sinha",
+      "patterns": [
+        "Info about Ms. Aparajita Sinha",
+        "Ms. Aparajita Sinha"
+      ],
+      "responses": [
+        "Her research interests are Natural Language Processing, Information Retrieval, Sentiment Analysis, and Emotion Detection. "
+      ]
+    },
+    {
+      "tag": "Mrs. Mitha Guru",
+      "patterns": [
+        "Info about Mrs. Mitha Guru",
+        "Mrs. Mitha Guru"
+      ],
+      "responses": [
+        "Her areas of interest are Artificial Intelligence, Machine Learning and Deep learning and its applications."
+      ]
+    },
+    {
+      "tag": "Rakshita R",
+      "patterns": [
+        "Info about Rakshita R",
+        "Rakshita R"
+      ],
+      "responses": [
+        " Areas of interest in Computer Vision, Python and Machine Learning."
+      ]
+    },
+    {
+      "tag": "Dr. Vinutha N",
+      "patterns": [
+        "Info about Dr. Vinutha N",
+        "Dr. Vinutha N"
+      ],
+      "responses": [
+        " Her areas of interest include Machine learning, Bioinformatics, Image Processing, Data Science."
+      ]
+    },
+    {
+      "tag": "Mr. Jeevaraj R",
+      "patterns": [
+        "Info about Mr. Jeevaraj R",
+        "Mr. Jeevaraj R"
+      ],
+      "responses": [
+        "His area of interest include on Java Programming, Hands-on knowledge on some of DevOps tools(Linux, Github, Maven, SonarQube, Ansible, Jenkins, AWS, Docker, K8S), Pyhon Programming, Mobile Computing."
+      ]
+    },
+    {
+      "tag": "Mrs. Pavithra A",
+      "patterns": [
+        "Info about Mrs. Pavithra A",
+        "Mrs. Pavithra A"
+      ],
+      "responses": [
+        "Her research interests include Internet of Things, Artificial Intelligence, Machine learning, and Deep Learning."
+      ]
+    },
+    {
+      "tag": "Ayain John",
+      "patterns": [
+        "Info about Ayain John",
+        "Ayain John"
+      ],
+      "responses": [
+        "AIML"
+      ]
+    },
+    {
+      "tag": "Prof. J Rajalekshmi",
+      "patterns": [
+        "Info about Prof. J Rajalekshmi",
+        "Prof. J Rajalekshmi"
+      ],
+      "responses": [
+        " Her areas of academic research interest are Artificial Intelligence, Machine Learning, Cloud computing etc.,"
+      ]
+    },
+    {
+      "tag": "Dr. Arijit Das",
+      "patterns": [
+        "Info about Dr. Arijit Das",
+        "Dr. Arijit Das"
+      ],
+      "responses": [
+        "AIML"
       ]
     },
     {
       "tag": "payments",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "I want to pay the college fees",
+        "I want the payment recept",
+        "Want to pay my exam fees",
+        "Fees",
+        "fees"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "You can goto Account section (B block 1st floor) or goto: https://www.dsu.edu.in "
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "library",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "I want to access library",
+        "Where is the library",
+        "Library",
+        "library"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "It is in the A block 3rd Floor or visit: https://www.dsu.edu.in/library",
+        "The National Digital Library of India: https://ndl.iitkgp.ac.in"
+      ]
+    },
+    {
+      "tag": "study_material",
+      "patterns": [
+        "I want to access study material",
+        "Where can i get study material",
+        "study material"
+      ],
+      "responses": [
+        "You can go to study material section in ERP"
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "I want to know about admission",
+        "admission",
+        "Admission"
+      ],
+      "responses": [
+        "Goto Admission section in A block or visit: https://www.dsu.edu.in/admission"
+      ]
+    },
+    {
+      "tag": "stock_prediction",
+      "patterns": [
+        "I want to know about stock prediction",
+        "Info about stock prediction",
+        "any more"
+      ],
+      "responses": [
+        "To practice stock prediction you can go here: https://www.trade-ideas.com",
+        "To practice stock prediction you can go here: https://finviz.com",
+        "To practice stock prediction you can go here: https://www.zacks.com",
+        "To practice stock prediction you can go here: https://www.stockrover.com",
+        "To practice stock prediction you can go here: https://in.tradingview.com"
       ]
     },
     {
@@ -74,11 +299,19 @@
       "patterns": [
         "Tell me a joke!",
         "Tell me something funny!",
-        "Do you know a joke?"
+        "Do you know a joke?",
+        "Another one",
+        "another one",
+        "other"
       ],
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why did the bicycle fall over? Because it was two-tired!",
+        "Why did the tomato turn red? Because it saw the salad dressing!",
+        "What did one wall say to the other wall? I'll meet you at the corner!",
+        "Why don't eggs tell jokes? Because they might crack up!",
+        "Why don't skeletons fight each other? They don't have the guts."
       ]
     }
   ]
