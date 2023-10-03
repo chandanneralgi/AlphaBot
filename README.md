@@ -40,6 +40,3 @@ $ (venv) python chat.py
 
 Now for deployment follow my tutorial to implement `app.py` and `app.js`.
 
-## Credits:
-This repo was used for the frontend code:
-https://github.com/hitchcliff/front-end-chatjs
